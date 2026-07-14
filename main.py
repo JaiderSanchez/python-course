@@ -4,7 +4,7 @@ print('Hello world') # This is a comment.
 
 # The most common data types we typically store in variables are: text, integers and decimals, booleans, lists or arrays, as well as maps, objects, or dictionaries.
 
-# Variables
+# VARIABLES
 book = "The Pragmatic Programmer." # This is a string variable.
 
 integer = 26 # This is an integer variable.
@@ -18,7 +18,7 @@ selected = False # This is a boolean variable.
 numbers = [23, 45, 16, 37, 3, 99, 22] # This is a list variable.
 print(numbers[0])
 
-# Text list
+# TEXT LIST
 animals = ["dog", "cat", "bird", "fish"] # This is a list of animals.
 mixedData = ["text", 69, True, ["List within another list"]]
 
@@ -29,14 +29,14 @@ players = {
 }
 print(players[7]) # This will return "Cristiano Ronaldo".
 
-# Constants
+# CONSTANTS
 PI = 3.14159 # This is a constant. It is a good practice to use uppercase letters for constants.
 DAYS_OF_THE_WEEK = 7
 URL_API = "https://example.com"
 
 # Although Python won't prevent you from modifying its value, the convention indicates to other programmers that it should not be changed.
 
-# Operators
+# OPERATORS
 
 # Arithmetic
 print(4 + 5) # This will return 9.
